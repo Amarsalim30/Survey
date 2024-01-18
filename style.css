@@ -1,0 +1,64 @@
+html{
+    background-image: url( https://images.pexels.com/photos/1213447/pexels-photo-1213447.jpeg?auto=compress&cs=tinysrgb&w=600 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: oblique;
+    font-size:large;
+}
+h1,p{
+    text-align: center;
+    color: rgb(232, 222, 222);
+    text-shadow: 2px 2px rgb(17, 17, 17);
+   
+}
+.wrapper{
+    display:grid;
+    place-items: center;
+    margin:auto;
+    background-color: rgba(135, 113, 113, 0.6);
+    width:40vw;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgba(61, 58, 58, 0.6);
+}
+#name,#email,#age,#dropdown{
+    display:block;
+    width:25vw;
+    height:4vh;
+    font-size: larger;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.group,.group1,.group2{
+    border-bottom: 3px solid rgba(61, 58, 58, 0.6) ;
+}
+.a{
+    color: rgb(3, 3, 3);
+    text-decoration: wavy;
+    text-shadow: 1px 0px rgb(21, 20, 20);
+}
+#home,#uni,#mentor{
+    width:auto;
+    height: auto;
+    display:inline-block;
+    margin: right 8px;
+}
+.group1,label,textarea{
+    text-align:start;
+    padding-left: 5px;
+    display: block;
+    margin-top:3vh;
+    margin-bottom:3vh;
+    font-size: large;
+    padding: 3px;
+}
+button[type="submit"]
+{
+    font-size: larger;
+    color: rgba(252, 248, 248, 0.6);
+    background-color: rgb(37, 33, 33);
+    box-sizing: border-box;
+    box-shadow: 2px 2px rgba(61, 58, 58, 0.6);
+}
+button[type="submit"]:hover,.group2 label:hover{
+    cursor: pointer;
+}

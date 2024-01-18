@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+    <link rel="shortcut icon" href="/tablet-data-settings.png" type="image/x-icon">
+</head>
+<body>
+    <h1 id="title"><em><u>ETHICAL HACKING</u></em></h1>
+    <p id="description">welcome and thanks for trying to improve our <b>platform</b></p>
+    <div class="wrapper">
+        <form action="submit/meat/" method="get" id="survey-form">
+            <div class="group">
+             <label for="name" id="name-label">Name<input type="text"placeholder="enter your name" id="name"required></label>
+             <label for="email" id="email-label">Email<input type="email" placeholder="enter your email" id="email"required></label>
+             <label for="number" id="number-label">Age<input type="number" placeholder="enter your age" id="number" min="13" max="120"></label>
+            </div>
+            <div class="group1">
+                <label for="dropdown"><p class="a">What type of ethical hacking do you find interesting</p> <select name="dropdown" id="dropdown">
+                <option value="0">select your choice</option>
+                <option value="1">System hacking</option>
+                <option value="2">Web application hacking</option>
+                <option value="3">Wireless hacking</option>
+                <option value="4">Server hacking</option>
+             </select>
+            </label>
+            </div>
+            <div class="group2"><p class="a">"Where would you find it most comfortable to learn ethical hacking?"</p>
+                <label for="home"><input type="radio" value="home" name="home-uni-mentor" id="home"> At Home</label>
+                <label for="uni"><input type="radio" value="uni" name="home-uni-mentor" id="uni">At a university</label>
+                <label for="mentor"><input type="radio"value="mentor" name="home-uni-mentor" id="mentor">Through a mentor</label>
+            </div>
+            <div class="group2"><p class="a">"what would you like to learn ?"</p>
+               <label for="Cryptography"><input type="checkbox" value="Cryptography" name="Cryptography" id="Cryptography">Cryptography</label>
+               <label for="chk"><input type="checkbox"value="chk" name="chk" id="chk">Computer hardware knowledge</label>
+               <label for="Database"><input type="checkbox"value="Database" name="Database" id="Database">Database knowledge</label>
+               <label for="Problem-solving"><input type="checkbox"value="Problem-solving" name="Problem-solving" id="">Problem-solving skills</label>
+               <label for="Programming"><input type="checkbox" value="Programming"name="Programming" id="Programming">Programming skills</label>
+               <label for="Networking"><input type="checkbox"value="Networking" name="Networking" id="Networking">Networking knowledge</label>
+            </div>
+            <div class="group3">
+                <textarea name="comment" id="comment" cols="40" rows="5" placeholder="add any suggestions or comments"></textarea>
+            </div>
+            <button id="submit"type="submit">submit</button>
+          
+        </form>
+    </div>
+</body>
+</html>
